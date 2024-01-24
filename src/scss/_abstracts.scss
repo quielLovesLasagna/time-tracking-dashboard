@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+// COLOR
+$cl-blue: hsl(246, 80%, 60%);
+$cl-light-orange: hsl(15, 100%, 70%);
+$cl-soft-blue: hsl(195, 74%, 62%);
+$cl-light-red: hsl(348, 100%, 68%);
+$cl-lime-green: hsl(145, 58%, 55%);
+$cl-violet: hsl(264, 64%, 52%);
+$cl-soft-orange: hsl(43, 84%, 65%);
+$cl-very-dark-blue: hsl(226, 43%, 10%);
+$cl-dark-blue: hsl(235, 46%, 20%);
+$cl-desaturated-blue: hsl(235, 45%, 61%);
+$cl-pale-blue: hsl(236, 100%, 87%);
+$cl-white: hsl(0, 0%, 100%);
+$cl-dark-purple: hsl(236, 41%, 34%);
+
+// FONT-FAMILY
+$ff-rubik: "Rubik", sans-serif;
+
+// FONT-WEIGHT
+$fw-xtiny: 300;
+$fw-tiny: 400;
+$fw-small: 500;
+
+// MIXIN
+@mixin transitionAll {
+	transition: all 0.2s;
+}
+
+// FUNCTION
+@function toRem($size) {
+	$remSize: calc($size / 16px);
+	@return #{$remSize}rem;
+}
