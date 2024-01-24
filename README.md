@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [https://github.com/quielLovesLasagna/time-tracking-dashboard](https://github.com/quielLovesLasagna/time-tracking-dashboard)
 - Live Site URL: []()
 
 ## My process
