@@ -74,8 +74,11 @@ categoriesLinkEl.addEventListener("click", (e) => {
 	// -- If user did not click a time category, exit
 	if (!clickedElement) return;
 
-	// -- Get time category type
-	const timeCategory = clickedElement.classList[0];
+	// -- Get dataset of all data-x attributes
+	const datasetOfClickedElement = clickedElement.dataset;
+
+	// -- Get time category type of the data-id attribute
+	const timeCategory = datasetOfClickedElement.id;
 
 	// -- Invoke timeType function using timeCategory
 	timeType(timeCategory);
